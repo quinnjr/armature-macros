@@ -1,18 +1,18 @@
 [package]
 name = "armature-macros"
 version = "0.2.1"
-edition.workspace = true
-rust-version.workspace = true
-authors.workspace = true
-license.workspace = true
+edition = "2024"
+rust-version = "1.94.1"
+authors = ["Joseph Quinn <quinn.josephr@proton.me>"]
+license = "Apache-2.0"
 repository = "https://github.com/quinnjr/armature-macros"
-homepage.workspace = true
+homepage = "https://quinnjr.github.io/armature"
 description = "Declarative macros for Armature framework"
 keywords = ["macros", "framework", "web"]
 categories = ["web-programming", "development-tools::procedural-macro-helpers"]
 
 [dependencies]
-armature-core = { path = "../armature-core", version = "0" }
+armature-core = { version = "0" }
 serde_json = "1.0"
 
 [dev-dependencies]
