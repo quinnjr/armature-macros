@@ -1,6 +1,6 @@
 [package]
 name = "armature-macros"
-version = "0.3.0"
+version = "0.4.0"
 edition = "2024"
 rust-version = "1.94.1"
 authors = ["Joseph Quinn <quinn.josephr@proton.me>"]
@@ -12,7 +12,7 @@ keywords = ["macros", "framework", "web"]
 categories = ["web-programming", "development-tools::procedural-macro-helpers"]
 
 [dependencies]
-armature-core = { version = "0.9" }
+armature-core = { version = "0.10" }
 serde_json = "1.0"
 
 [dev-dependencies]
